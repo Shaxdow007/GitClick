@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitClick</title>
+    <!-- fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- js -->
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <!-- arrow top -->
+    <div class="arrow-top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <!-- header -->
+    <header class="container header">
+      <div class="logo">
+        <a href="#"><span>GitClick</span></a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar-items"><a href="#">home</a></li>
+          <li class="navbar-items"><a href="#get">GitClick client</a></li>
+          <li class="navbar-items"><a href="#about">about</a></li>
+          <li class="navbar-items"><a href="#pricing">pricing</a></li>
+        </ul>
+      </nav>
+      <div class="trychange">
+        <a href="#">try free</a>
+        <div class="change-mode">
+          <i class="fa-solid fa-moon"></i>
+          <!-- <i class="fa-solid fa-sun"></i> -->
+        </div>
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="container">
+          <div class="hero">
+            <h1>
+              streamline your
+              <span>dev workflow</span>
+            </h1>
+            <p>
+              this client will really change your development workflow.
+              integrate with the tool you love.
+            </p>
+            <button class="dow">download</button>
+            <button class="learn">learn more</button>
+          </div>
+        </div>
+      </section>
+      <div id="get" class="cards container">
+        <div class="card">
+          <i class="fa-solid fa-users-between-lines"></i>
+          <h2>collaboration</h2>
+          <p>
+            help is priority. even if it's not <br />
+            directly related to the goals <br />
+            you're trying to achieve
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-fingerprint"></i>
+          <h2>security</h2>
+          <p>
+            manage your work with built-in <br />
+            agile features. we update them <br />
+            regularly.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-chart-pie"></i>
+          <h2>analytics</h2>
+          <p>
+            view reports and analysis <br />
+            of your team's work. it helps <br />
+            to do the work more efficiently
+          </p>
+        </div>
+      </div>
+
+      <section class="about-us" id="about">
+        <div class="container">
+          <div class="about-content">
+            <h3>
+              we are a company that has created a devOps platform for software
+              innovation
+            </h3>
+
+            <div class="img-about">
+              <img src="./images/img4.jpg" alt="devOps" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div class="container">
+          <div class="pricing-content">
+            <h4>our pricing</h4>
+            <p>
+              we offer favorable conditions for you <br />
+              comfortable and productive work.
+            </p>
+            <div class="prcing-cards">
+              <div class="pri-card">
+                <h5>free</h5>
+                <p>for individual devs</p>
+                <hr />
+                <ul>
+                  <li>5 GB storage</li>
+                  <li>10 GB transfer / month</li>
+                  <li>4 users per namespace</li>
+                  <li>local and private repos</li>
+                </ul>
+                <p class="prix"><span>$0</span> /month</p>
+
+                <button>buy now</button>
+              </div>
+              <div class="pri-card">
+                <h5>premium</h5>
+                <p>for a small team</p>
+                <hr />
+                <ul>
+                  <li>60 GB storage</li>
+                  <li>advanced CI/CD</li>
+                  <li>enterprise agile planning</li>
+                  <li>protected branches</li>
+                </ul>
+                <p class="prix"><span>$16</span> /month</p>
+
+                <button>buy now</button>
+              </div>
+              <div class="pri-card">
+                <h5>ultimate</h5>
+                <p>for large conpanies</p>
+                <hr />
+                <ul>
+                  <li>260 GB storage</li>
+                  <li>security dashboards</li>
+                  <li>free guest users</li>
+                  <li>container scanning</li>
+                </ul>
+                <p class="prix"><span>$99</span> /month</p>
+
+                <button>buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="copy-footer">
+            <h6>GitClick</h6>
+            <p>copyright &copy; 2023 by shadow 007</p>
+          </div>
+          <div class="contact-footer">
+            <form action="">
+              <label for="sub">subscribe to our newsletter</label> <br />
+              <input type="text" name="" id="sub" placeholder="Name" />
+            </form>
+          </div>
+          <div class="social">
+            <p>follow us</p>
+            <ul>
+              <li><a href="#">facebook</a></li>
+              <li><a href="#">twitter</a></li>
+              <li><a href="#">instagram</a></li>
+              <li><a href="#">discord</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- background: radial-gradient(#e66465, #9198e5); -->
